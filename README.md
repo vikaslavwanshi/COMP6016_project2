@@ -5,7 +5,8 @@ SWAT testbed project
 gunicorn --bind 0.0.0.0:8000 --timeout 300 wsgi:app
 
 Abstract:
-In this Report, we have continued building a framework using various aspects of technologies using development of UI using React, developing of a robust ML model which can classify the attacks based on the discrepancies introduced in the system, then pass it to the UI to show our observations. We have worked on multiple parts of the project in this milestone, including testing of several types of attacks on Mininet, and then observed their behavior in Wireshark and captured these changes in a csv file to compare and show the results on UI.
+
+Building a framework using various aspects of technologies using development of UI using React, developing of a robust ML model which can classify the attacks based on the discrepancies introduced in the system, then pass it to the UI to show our observations. We have worked on multiple parts of the project in this milestone, including testing of several types of attacks on Mininet, and then observed their behavior in Wireshark and captured these changes in a csv file to compare and show the results on UI.
 The objective in this milestone is to create a security testbed and test different attacks on a secure water treatment (SWAT) system, and how well we can test different attacks on the existing system. We will be building a framework by performing regress testing and by implementation of ML models, to establish a more secure and robust framework, which could deal with heavy traffic of data and multiple attacks.
 
 Introduction:
